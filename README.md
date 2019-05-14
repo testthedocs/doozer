@@ -76,6 +76,6 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit) license.
 
 TestTheDocs - [@testthedocs](https://twitter.com/testthedocs)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/testthedocs/doozer](https://github.com/testthedocs/doozer)
 
 
