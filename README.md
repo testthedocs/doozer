@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-tbc ...
+Based on [Template](https://github.com/fabiospampinato/template).
 
 ### Built With
 
