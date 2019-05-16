@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "remark-lint"
+  ],
+  "settings": {
+    "commonmark": true,
+    "blockquote-indentation": "2",
+    "checkbox-character-style": {
+      "checked": "x",
+      "unchecked": " "
+    },
+    "code-block-style": "fenced",
+    "heading-style": "atx",
+    "list-item-indent": "space",
+    "list-item-spacing": false,
+    "no-html": false,
+    "no-shortcut-reference-link": true,
+    "no-undefined-references": true,
+    "unordered-list-marker-style": "-",
+    "maximum-line-length": "140",
+    "maximum-heading-length": 100
+  }
+}
