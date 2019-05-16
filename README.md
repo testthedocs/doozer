@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c082c23ebfab4edeb4945c4130ca9d62)](https://www.codacy.com/app/svx/doozer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=testthedocs/doozer&amp;utm_campaign=Badge_Grade)
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -18,8 +20,6 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
