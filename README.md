@@ -31,6 +31,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 
 
@@ -78,4 +79,8 @@ TestTheDocs - [@testthedocs](https://twitter.com/testthedocs)
 
 Project Link: [https://github.com/testthedocs/doozer](https://github.com/testthedocs/doozer)
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
+- [Template](https://github.com/fabiospampinato/template)
+- [Best-README-Template](https://github.com/testthedocs/Best-README-Template)
