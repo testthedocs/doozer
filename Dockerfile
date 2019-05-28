@@ -7,6 +7,7 @@ FROM alpine:3.9 as fetcher
 ENV BOILR_VERSION 0.4.5
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+# hadolint ignore=DL3018,DL3016
 RUN set -x \
     && apk add --no-cache --virtual .build-deps \
         curl \
@@ -23,7 +24,7 @@ WORKDIR /srv
 
 COPY --from=fetcher /opt/boilr /usr/local/bin/boilr
 #COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-
+# hadolint ignore=DL3018,DL3016
 RUN adduser -s /bin/false -D ttd \
         && apk add --no-cache \
 	    bash \
