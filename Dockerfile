@@ -6,7 +6,7 @@ FROM alpine:3.9 as fetcher
 
 ENV BOILR_VERSION 0.4.5
 
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+SHELL ["/bin/sh", "-o", "pipefail", "-c"]
 # hadolint ignore=DL3018,DL3016
 RUN set -x \
     && apk add --no-cache --virtual .build-deps \
@@ -35,7 +35,8 @@ RUN adduser -s /bin/false -D ttd \
 
 USER ttd
 
-RUN boilr template download okular-d/doozer-project new-project
+RUN boilr template download okular-d/doozer-project doozer-project \
+    && boilr template download okular-d/doozer-vale doozer-vale
 #CMD ["boilr"]
 #ENTRYPOINT [ "/sbin/tini", "--", "/usr/local/bin/entrypoint.sh" ]
 
