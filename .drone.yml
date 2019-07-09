@@ -6,7 +6,7 @@ steps:
   image: hadolint/hadolint:latest-debian
   commands:
     - hadolint --version
-    - hadolint Dockerfile
+    - hadolint --ignore DL4006 Dockerfile
 
 - name: linkcheck
   image: testthedocs/cci-linkcheck
